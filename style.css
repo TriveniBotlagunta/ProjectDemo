@@ -1,0 +1,78 @@
+body{
+	min-height: 100vh;
+	
+  }
+  
+.sidebar{
+  
+	left:0;
+	width:200px;
+	height:1000px;
+	background:#FFFFFF;
+	box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.14);
+}
+
+.inner-text{
+	
+	font-size:24px;
+}
+.sidebar ul a{
+	display:block;
+	
+	line-height: 70px;
+	font-size:20px;
+	color:black;
+	
+  }
+  ul li:hover a{
+	padding-left:5px;
+
+  }
+
+  *{
+	margin:0;
+	padding:0;
+	list-style:none;
+	text-decoration: none;
+	
+	
+  }
+  
+  .header{
+	height:60px;
+	background-color: lightgrey;
+	display:flex;
+	
+	
+  }
+  .center{
+	padding-left: 150px;
+	padding-top:20px;
+	
+  }
+  .triveni{
+	min-height:calc(100vh-100px);
+	display: flex;
+	
+
+
+  }
+  .content{
+    padding-left:30px;
+    padding-top: 10px;
+  }
+    
+  .card,th,td {
+
+    border: 1px solid black;
+	background:#FFFFFF;
+	box-shadow: 0 0 13px 0 rgba(0, 0, 0, 0.2), 0 0px 0px 0 rgba(0, 0, 0, 0.14);
+
+  }
+  
+  
+  
+  .card:hover{
+	box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+  }
+ 
